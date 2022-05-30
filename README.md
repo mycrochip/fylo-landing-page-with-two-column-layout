@@ -57,7 +57,7 @@ Users should be able to:
 
 ### What I learned
 
-This is my very first attempt at utilizing javascript in my projects. I used javascript to add functionality to the forms only. Ths nav in this projects does not require the use of javascript. 
+This is my very first attempt at utilizing javascript in my projects. I used javascript to add functionality to the forms only. Ths nav in this project does not require the use of javascript. 
 
 ```css
 .proud-of-this-css {
@@ -85,7 +85,7 @@ function disableAllButtons() {
 
 ### Continued development
 
-I have always wanted to master a tool before use. I recently found out and am still learning to understand that "learning on the go is far more realistic than learning all before going. There's just too much to learn"
+I have always wanted to master a tool before use. I recently found out and am still learning to understand that "learning on the go is far more realistic than learning all before going. There's too much to learn."
 
 Besides, more projects to be completed on [FrotendEnd Mentor](https://www.frontendmentor.io/)!
 
