@@ -502,10 +502,7 @@
     }
 
     .testimonial::before {
-        content: "";
-        aspect-ratio: 1.1/1;
-        width: 1rem;
-        background-image: url(../images/icon-quotes.svg);
+        content: url(../images/icon-quotes.svg);
         top: 2.5rem;
         left: 2.5rem;
     }
