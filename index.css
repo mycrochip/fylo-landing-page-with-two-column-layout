@@ -1,0 +1,134 @@
+@import url(main.css);
+
+
+/* Classes */
+
+.wrapper {
+    padding: 1.25rem;
+    width: clamp(150px, 100%, 60rem);
+    margin-inline: auto;
+}
+
+.wrapper.hero {
+    padding-top: 8rem; /*same as header height*/
+    padding-inline: 1rem;
+    width: 100%;
+}
+
+.header__cta {
+    float: right;
+    font-size: 0.5em;
+    padding-block: 0.5em;
+    padding-inline: 2.5em;
+}
+
+.hero {
+    height: 100vh;
+    padding: 2.5rem;
+    background-color: var(--clr-neutral-500);
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 3rem;
+}
+
+.hero__text {
+    width: clamp(150px, 100%, 24rem);
+    text-align: center;
+    margin: auto;
+}
+
+.hero__text__title {
+    font-family: var(--ff-heading);
+    font-size: 1.35em;
+    font-weight: var(--fw-600);
+    margin-bottom: 1em;
+}
+
+.hero__text__message {
+    font-size: 0.875em;
+    margin-bottom: 2em;
+}
+
+.hero__img {
+    width: clamp(150px, 100%, 30rem);
+    margin: auto;
+}
+
+.features {
+    position: relative;
+    width: 100%;
+    padding-block-end: 15rem;
+}
+
+.footer__logo {
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* #################
+    Media Queries
+################# */
+
+/* Desktop View */
+@media only screen and (min-width: 1024px) {
+
+    /* Classes */
+
+    .wrapper {
+        padding: 8rem;
+        width: 100%;
+    }
+
+    .header.wrapper {
+        padding: 3rem 8rem;
+    }
+
+    .wrapper.hero {
+        padding: 8rem 8rem 2rem; /*same as header height*/
+    }
+
+    .header__cta {
+        font-size: 0.875rem;
+        padding-block: 1rem;
+        padding-inline: 4rem;
+    }
+
+    .footer__wrapper {
+        padding-block: 8rem 3rem;
+    }
+
+    .hero {
+        background-image: url(../images/bg-hero-desktop.svg);
+        gap: 4rem;
+        grid-template-columns: calc(45% - 2.5rem) calc(55% - 1.5rem); /* 3rem gap*/
+    }
+
+    .hero__text {
+        width: 100%;
+        text-align: left;
+    }
+
+    .hero__text__title {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero__text__message {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero__img {
+        width: 100%;
+    }
+
+    .features {
+        padding-block-end: 20rem;
+    }
+    
+}
