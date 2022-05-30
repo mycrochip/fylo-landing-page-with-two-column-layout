@@ -48,7 +48,7 @@
     gap: 1rem;
     padding-inline: var(--padding);
     padding-block: 5rem;
-    background-image: url(/images/bg-curve-mobile.svg);
+    background-image: url(../images/bg-curve-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -382,7 +382,7 @@
         gap: 4rem;
         padding: var(--padding);
         padding-bottom: calc(var(--padding) * 3);
-        background-image: url(/images/bg-curve-desktop.svg);
+        background-image: url(../images/bg-curve-desktop.svg);
     }
 
     .hero__img,
