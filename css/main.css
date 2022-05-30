@@ -42,6 +42,11 @@ body {
     position: relative;
 }
 
+/* section {
+    max-width: 1960px;
+    margin: 0 auto;
+} */
+
 ol, 
 ul {
     list-style-type: none;
