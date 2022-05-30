@@ -182,7 +182,7 @@
 .main__content__cta::after {
     position: absolute;
     content: "";
-    aspect-ratio: 1/1;
+    height: 1rem;
     width: 1rem;
     right: 0;
     background-image: url(../images/icon-arrow.svg);
@@ -478,7 +478,7 @@
     }
 
     .main__content__cta::after {
-        aspect-ratio: 1/1;
+        height: 1.25rem;
         width: 1.25rem;
         bottom: 0.25rem;
     }
